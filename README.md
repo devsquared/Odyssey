@@ -11,4 +11,9 @@ with rust.
 ## Scratch Notes
 - I believe that this is an iterative process and a system passing challenge 3 will still pass challenge 1. Therefore, I will
 just create new branches and merge them into main as we go. However, if this does not hold, I will create and hold onto branches.
-- 
+
+## How to Run
+For the Go side, cd into Godyssey. Then you can build the go binary and then
+execute as need be with the maelstrom terminal
+- First lesson: `/maelstrom test -w echo --bin ./Godyssey --node-count 1 --time-limit 10`
+- Second lesson: `/maelstrom test -w unique-ids --bin ./Godyssey --time-limit 30 --rate 1000 --node-count 3 --availability total --nemesis partition`

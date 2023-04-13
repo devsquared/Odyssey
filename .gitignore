@@ -1,6 +1,8 @@
 # IDE Specifics
 .idea/
 
+store/
+
 ## Go gitignore files
 # Binaries for programs and plugins
 Godyssey
