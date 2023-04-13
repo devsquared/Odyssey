@@ -3,6 +3,7 @@
 
 ## Go gitignore files
 # Binaries for programs and plugins
+Godyssey
 *.exe
 *.exe~
 *.dll
